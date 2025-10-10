@@ -16,8 +16,16 @@ const App = () => {
     ]);
 
     function reciveData(externalDataName, externalDataImage) {
-        const newStudent = { name: externalDataName, image: externalDataImage };
-        setStudents(() => [...students, newStudent]);
+        if (externalDataName === "Rachel Amber") {
+            const newStudent = { name: externalDataName, image: Rachel };
+            setStudents(() => [...students, newStudent]);
+        } else {
+            const newStudent = {
+                name: externalDataName,
+                image: externalDataImage,
+            };
+            setStudents(() => [...students, newStudent]);
+        }
         console.log(externalDataImage, externalDataName);
     }
 
