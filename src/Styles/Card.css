@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.card-container {
+  position: relative;
+  min-height: 12.5rem;
+  max-width: 25.5rem;
+  background-color: gold;
+  border-radius: 10px;
+  max-width: 285px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.del-btn {
+  position: absolute;
+  top: -510%;
+  right: 0;
+  background-color: whitesmoke;
+  font-weight: 700;
+  padding: 3px;
+}
+
+.card-image {
+  min-width: 17rem;
+  height: 20rem;
+  background-color: red;
+  overflow: hidden;
+  border-radius: 3px;
+}
+
+.card-image img {
+  height: 100%;
+  width: 100%;
+  object-position: center;
+  object-fit: cover;
+}
+
+.card-info {
+  position: relative;
+}
+
+.card-info h2 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  white-space: noWrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  bottom: 0;
+  right: 5px;
+}
+
+.btns > button {
+  width: 1.4rem;
+  font-weight: 600;
+}
+
+.fav {
+  position: absolute;
+  min-width: 20px;
+  left: 50%;
+  top: 70%;
+  transform: translate(-50%);
+}
