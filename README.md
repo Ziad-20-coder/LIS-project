@@ -1,16 +1,12 @@
-# React + Vite
+## LIS project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**this project has no fancy stuff.**
 
-Currently, two official plugins are available:
+it's one of my fav projects cause it combine two things i love.
+    1. I'm a big fan of the orginal life is strange.
+    2. that's one of the early projects i made using react for the first time.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+it's just add and rating cards of LIS character or any other character you like.
+i also added an easter egg in the project just for fun.
 
-## React Compiler
-
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+it's totally okay to fork it and do build on top of it. (i don't think anyone would do that though 😂)
